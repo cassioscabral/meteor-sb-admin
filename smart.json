@@ -3,6 +3,6 @@
 	"description": "SB Admin bootstrap 3 template packaged for Meteor",
 	"homepage": "https://github.com/cassioscabral/meteor-sb-admin",
 	"author": "Cassio Cabral",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"git": "https://github.com/cassioscabral/meteor-sb-admin.git"
 }

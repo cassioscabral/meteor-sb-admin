@@ -6,7 +6,7 @@ Package.on_use(function (api){
 
 	api.use('jquery','client');
 	api.imply('jquery', 'client');
-	
+
 	var path = Npm.require('path');
     var assetPath = path.join('lib/sb-admin/');
 
@@ -24,7 +24,6 @@ Package.on_use(function (api){
         assetPath + 'fonts/glyphicons-halflings-regular.svg',
         assetPath + 'fonts/glyphicons-halflings-regular.ttf',
         assetPath + 'fonts/glyphicons-halflings-regular.woff',
-        assetPath + 'js/bootstrap.min.js',
         assetPath + 'js/plugins/morris/raphael.min.js',
         assetPath + 'js/plugins/morris/morris.min.js',
         assetPath + 'js/plugins/morris/morris-data.js',
