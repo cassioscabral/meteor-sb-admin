@@ -5,6 +5,7 @@ Package.describe({
 Package.on_use(function (api){
 
 	api.use('jquery','client');
+	api.imply('jquery', 'client');
 	
 	var path = Npm.require('path');
     var assetPath = path.join('lib/sb-admin/');
@@ -23,16 +24,15 @@ Package.on_use(function (api){
         assetPath + 'fonts/glyphicons-halflings-regular.svg',
         assetPath + 'fonts/glyphicons-halflings-regular.ttf',
         assetPath + 'fonts/glyphicons-halflings-regular.woff',
-        assetPath + 'js/plugins/flot/excanvas.min.js',
-        assetPath + 'js/plugins/flot/flot-data.js',
-        assetPath + 'js/plugins/flot/jquery.flot.js',
-        assetPath + 'js/plugins/flot/jquery.flot.pie.js',
-        assetPath + 'js/plugins/flot/jquery.flot.resize.js',
-        assetPath + 'js/plugins/flot/jquery.flot.tooltip.min.js',
-        assetPath + 'js/plugins/morris/morris-data.js',
-        assetPath + 'js/plugins/morris/morris.min.js',
+        assetPath + 'js/bootstrap.min.js',
         assetPath + 'js/plugins/morris/raphael.min.js',
-        assetPath + 'js/bootstrap.min.js'
+        assetPath + 'js/plugins/morris/morris.min.js',
+        assetPath + 'js/plugins/morris/morris-data.js',
+        assetPath + 'js/plugins/flot/jquery.flot.js',
+        assetPath + 'js/plugins/flot/jquery.flot.tooltip.min.js',
+        assetPath + 'js/plugins/flot/jquery.flot.resize.js',
+        assetPath + 'js/plugins/flot/jquery.flot.pie.js',
+        assetPath + 'js/plugins/flot/flot-data.js'
         ]
 
     api.add_files(assetFiles, 'client');
