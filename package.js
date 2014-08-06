@@ -32,7 +32,7 @@ Package.on_use(function (api){
         assetPath + 'js/plugins/morris/morris-data.js',
         assetPath + 'js/plugins/morris/morris.min.js',
         assetPath + 'js/plugins/morris/raphael.min.js',
-        assetPath + 'js/bootstrap.min.js',
+        assetPath + 'js/bootstrap.min.js'
         ]
 
     api.add_files(assetFiles, 'client');
