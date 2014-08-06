@@ -2,12 +2,14 @@
 
 This simple  package adds the [SB Admin template](http://startbootstrap.com/template-overviews/sb-admin/) to [Meteor](http://www.meteor.com) using the [Meteorite](https://github.com/oortcloud/meteorite) package manager for [Meteor](http://www.meteor.com).
 
+The one(sb-admin) found today on Atmosphere is not working, the repository does not exist.
+
 ##Usage
 
 Install this package using [Meteorite](https://github.com/oortcloud/meteorite) by issuing the following console commands:
 
     $ cd your_meteor_application_directory
-    $ mrt add sb-admin
+    $ mrt add sb-admin-working-pkg
 
 ##Contributions
 1. Fork this repository.
